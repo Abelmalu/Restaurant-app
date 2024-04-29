@@ -17,5 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/pizzas', function () {
-    return view('pizzas');
+    return view(' pizzas',['type'=>'italian']);
 });
+
+
+
+Route::get('/pizzas/{id}','App\Http\Controllers\PizzaController@show');

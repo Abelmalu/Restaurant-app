@@ -6,7 +6,20 @@
 </head>
 <body>
 
-<h1>Pizzas</h1>
+<div class="flex-center position-ref full-height">
+    <div class="content">
+        <div class="title m-b md">
+            Pizza list
+
+        </div>
+        <p>
+            {{$type}}
+        </p>
+    </div>
+
+
+
+</div>
     
 </body>
 </html>
